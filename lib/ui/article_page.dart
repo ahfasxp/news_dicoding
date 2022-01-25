@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/provider/news_provider.dart';
-import 'package:news_app_dicoding/utils/result_state.dart';
-import 'package:news_app_dicoding/widgets/card_article.dart';
-import 'package:news_app_dicoding/widgets/platform_widget.dart';
+import 'package:news_dicoding/provider/news_provider.dart';
+import 'package:news_dicoding/utils/result_state.dart';
+import 'package:news_dicoding/widgets/card_article.dart';
+import 'package:news_dicoding/widgets/platform_widget.dart';
 import 'package:provider/provider.dart';
 
 class ArticlePage extends StatelessWidget {
@@ -15,7 +15,7 @@ class ArticlePage extends StatelessWidget {
   Widget _buildAndroid(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News App'),
+        title: Text('News'),
       ),
       body: _buildList(context),
     );
@@ -24,7 +24,7 @@ class ArticlePage extends StatelessWidget {
   Widget _buildIos(BuildContext context) {
     return CupertinoPageScaffold(
         navigationBar: CupertinoNavigationBar(
-          middle: Text('News App'),
+          middle: Text('News'),
           transitionBetweenRoutes: false,
         ),
         child: _buildList(context));

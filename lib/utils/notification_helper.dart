@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:news_app_dicoding/common/navigation.dart';
-import 'package:news_app_dicoding/data/model/article.dart';
+import 'package:news_dicoding/common/navigation.dart';
+import 'package:news_dicoding/data/model/article.dart';
 import 'package:rxdart/rxdart.dart';
 
 final selectNotificationSubject = BehaviorSubject<String>();

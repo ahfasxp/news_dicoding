@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/common/navigation.dart';
-import 'package:news_app_dicoding/data/model/article.dart';
-import 'package:news_app_dicoding/ui/article_web_view.dart';
+import 'package:news_dicoding/common/navigation.dart';
+import 'package:news_dicoding/data/model/article.dart';
+import 'package:news_dicoding/ui/article_web_view.dart';
 
 class ArticleDetailPage extends StatelessWidget {
   static const routeName = '/article_detail';

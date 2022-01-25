@@ -1,6 +1,6 @@
 {
-    "name": "news_app_dicoding",
-    "short_name": "news_app_dicoding",
+    "name": "news_dicoding",
+    "short_name": "news_dicoding",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

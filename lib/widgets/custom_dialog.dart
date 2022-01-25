@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/common/navigation.dart';
+import 'package:news_dicoding/common/navigation.dart';
 
 customDialog(BuildContext context) {
   if (Platform.isIOS) {

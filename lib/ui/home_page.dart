@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/ui/article_page.dart';
-import 'package:news_app_dicoding/ui/article_web_view.dart';
-import 'package:news_app_dicoding/ui/bookmarks_page.dart';
-import 'package:news_app_dicoding/ui/settings_page.dart';
-import 'package:news_app_dicoding/utils/notification_helper.dart';
-import 'package:news_app_dicoding/widgets/platform_widget.dart';
+import 'package:news_dicoding/ui/article_page.dart';
+import 'package:news_dicoding/ui/article_web_view.dart';
+import 'package:news_dicoding/ui/bookmarks_page.dart';
+import 'package:news_dicoding/ui/settings_page.dart';
+import 'package:news_dicoding/utils/notification_helper.dart';
+import 'package:news_dicoding/widgets/platform_widget.dart';
 
 class HomePage extends StatefulWidget {
   static const routeName = '/home_page';

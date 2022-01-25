@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/common/style.dart';
-import 'package:news_app_dicoding/data/preferences/preferences_helper.dart';
+import 'package:news_dicoding/common/style.dart';
+import 'package:news_dicoding/data/preferences/preferences_helper.dart';
 
 class PreferencesProvider extends ChangeNotifier {
   PreferencesHelper preferencesHelper;

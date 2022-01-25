@@ -1,4 +1,4 @@
-package com.example.news_app_dicoding
+package com.example.news_dicoding
 
 import io.flutter.embedding.android.FlutterActivity
 

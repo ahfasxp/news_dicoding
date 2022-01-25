@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:news_app_dicoding/data/api/api_service.dart';
-import 'package:news_app_dicoding/data/model/article.dart';
-import 'package:news_app_dicoding/utils/result_state.dart';
+import 'package:news_dicoding/data/api/api_service.dart';
+import 'package:news_dicoding/data/model/article.dart';
+import 'package:news_dicoding/utils/result_state.dart';
 
 class NewsProvider extends ChangeNotifier {
   final ApiService apiService;

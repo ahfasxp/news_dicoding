@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:news_app_dicoding/data/model/article.dart';
+import 'package:news_dicoding/data/model/article.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {

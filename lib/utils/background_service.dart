@@ -2,9 +2,9 @@ import 'dart:isolate';
 
 import 'dart:ui';
 
-import 'package:news_app_dicoding/data/api/api_service.dart';
-import 'package:news_app_dicoding/main.dart';
-import 'package:news_app_dicoding/utils/notification_helper.dart';
+import 'package:news_dicoding/data/api/api_service.dart';
+import 'package:news_dicoding/main.dart';
+import 'package:news_dicoding/utils/notification_helper.dart';
 
 final ReceivePort port = ReceivePort();
 

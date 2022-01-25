@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.news_app_dicoding">
+    package="com.example.news_dicoding">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
-        android:label="news_app_dicoding"
+        android:label="news_dicoding"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

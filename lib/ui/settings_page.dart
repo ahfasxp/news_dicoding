@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/provider/preferences_provider.dart';
-import 'package:news_app_dicoding/provider/scheduling_provider.dart';
-import 'package:news_app_dicoding/widgets/custom_dialog.dart';
-import 'package:news_app_dicoding/widgets/platform_widget.dart';
+import 'package:news_dicoding/provider/preferences_provider.dart';
+import 'package:news_dicoding/provider/scheduling_provider.dart';
+import 'package:news_dicoding/widgets/custom_dialog.dart';
+import 'package:news_dicoding/widgets/platform_widget.dart';
 import 'package:provider/provider.dart';
 
 class SettingsPage extends StatelessWidget {

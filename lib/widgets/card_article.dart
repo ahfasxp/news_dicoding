@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_dicoding/common/navigation.dart';
-import 'package:news_app_dicoding/data/model/article.dart';
-import 'package:news_app_dicoding/provider/database_provider.dart';
-import 'package:news_app_dicoding/ui/article_detail_page.dart';
+import 'package:news_dicoding/common/navigation.dart';
+import 'package:news_dicoding/data/model/article.dart';
+import 'package:news_dicoding/provider/database_provider.dart';
+import 'package:news_dicoding/ui/article_detail_page.dart';
 import 'package:provider/provider.dart';
 
 class CardArticle extends StatelessWidget {
