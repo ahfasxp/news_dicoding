@@ -17,10 +17,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int bottomNavIndex = 0;
   static const String _headlineText = 'Headline';
-
   final NotificationHelper _notificationHelper = NotificationHelper();
+
+  int bottomNavIndex = 0;
 
   List<Widget> _listWidget = [
     ArticlePage(),
