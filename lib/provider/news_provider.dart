@@ -10,14 +10,14 @@ class NewsProvider extends ChangeNotifier {
   String _message = '';
 
   NewsProvider({required this.apiService}) {
-    _fetchAllArticle();
+    fetchAllArticle();
   }
 
   String get message => _message;
   ArticlesResult get result => _articlesResult;
   ResultState get state => _state;
 
-  Future<dynamic> _fetchAllArticle() async {
+  Future<dynamic> fetchAllArticle() async {
     try {
       _state = ResultState.Loading;
       notifyListeners();
