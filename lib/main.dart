@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:android_alarm_manager/android_alarm_manager.dart';
+import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -13,7 +13,6 @@ import 'package:news_dicoding/provider/database_provider.dart';
 import 'package:news_dicoding/provider/news_provider.dart';
 import 'package:news_dicoding/provider/preferences_provider.dart';
 import 'package:news_dicoding/provider/scheduling_provider.dart';
-
 import 'package:news_dicoding/ui/home_page.dart';
 import 'package:news_dicoding/utils/background_service.dart';
 import 'package:news_dicoding/utils/notification_helper.dart';
